@@ -1,0 +1,22 @@
+{
+  "name": "decision_tree_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximilienandile/decision_tree_example.git"
+  },
+  "author": "Maximilien Andile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximilienandile/decision_tree_example/issues"
+  },
+  "homepage": "https://github.com/maximilienandile/decision_tree_example#readme",
+  "dependencies": {
+    "lodash": "^4.16.4"
+  }
+}
