@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/maximilienandile/decision_tree_example#readme",
   "dependencies": {
-    "lodash": "^4.16.4"
+    "lodash": "^4.16.4",
+    "prettyjson": "^1.1.3"
   }
 }
