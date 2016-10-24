@@ -7,8 +7,8 @@ var shannon_entropy = require('./shannon_entropy')
 * This function will select the best feature for splittingwith the help
 * of the shannon entropy
 * @method get_the_best_feature_for_splitting
-* @param  {[type]}                           data [description]
-* @return {[type]}                                [description]
+* @param  {Array}                           data  A dataset of training, an array conposed of object with a property "label" that represents the class
+* @return {String}                                The name of the best feature for splitting (the property name)
 */
 var  get_the_best_feature_for_splitting= function(data){
   // we compute the Entropy

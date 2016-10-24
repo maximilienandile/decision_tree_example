@@ -4,6 +4,12 @@ var data_set_splitter = require('./data_set_splitter')
 var best_feature_selector = require('./best_feature_selector')
 var shannon_entropy = require('./shannon_entropy')
 
+/**
+ * This method will generate a decision tree
+ * @method generate_decision_tree
+ * @param  {Array of object}               data The dataset
+ * @return {Object}                    The decision tree/ ex : {"has_a_car":{"yes":{"has_a_house":{"yes":"good_borrower","no":"bad_borrower"}},"no":"bad_borrower"}}
+ */
 var generate_decision_tree = function(data){
 
   // Because we build a recursive function

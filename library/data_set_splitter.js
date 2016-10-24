@@ -7,6 +7,7 @@ var _ = require('lodash');
 * @param  {Array of Object}                               data    our dataset
 * @param  {String}                               feature the name of the feature
 * @param  {String or Number}                               value   the value of the feature to extract from the dataset
+* @return  {Array of Object}                               value   the dataset without the objects that have the feature "feature" set to the value "value" & without the feature "feature" 
 */
 var split_the_dataset_by_feature_and_value=function(data_set,feature,value){
   // we partition our array in order to isolate in the data

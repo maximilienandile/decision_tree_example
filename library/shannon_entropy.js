@@ -3,8 +3,8 @@ var _ = require('lodash');
 /**
 * This function is used to compute the Shannon Entropy
 * @method calculate_shannon_entropy
-* @param  {[Array]}                  data an array of data
-* @return {[Number]}                       The Shannon Entropy
+* @param  {Array}                  data an array of data
+* @return {Number}                       The Shannon Entropy
 */
 var calculate_shannon_entropy=function(data){
 
